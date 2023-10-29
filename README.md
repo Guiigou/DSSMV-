@@ -18,6 +18,9 @@ Este projeto tem como objetivo desenvolver uma aplicação Android que utiliza u
 
 - [Guilherme Gouveia] (https://github.com/Guiigou)
   - Contato: 1221795@isep.ipp.pt
+  - Num. Mecanográfico: 1221795  
 
 - [Marco Ferreira] (https://github.com/Marco-Ferreira21)
-  - Contato: 1221344@isep.ipp.pt
+  - Contato: marco_paulo21@hotmail.com
+  - Num. Mecanográfico: 1221344
+    
