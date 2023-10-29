@@ -14,4 +14,10 @@ Este projeto tem como objetivo desenvolver uma aplicação Android que utiliza u
 - **Search Controller:** Facilita a busca por livros e recursos na biblioteca.
 - **User Controller:** Lida com as operações de gerenciamento de usuários, como registro, login e informações de perfil.
 
+## Autores
 
+- [Guilherme Gouveia] (https://github.com/Guiigou)
+  - Contato: 1221795@isep.ipp.pt
+
+- [Marco Ferreira] (https://github.com/Marco-Ferreira21)
+  - Contato: 1221344@isep.ipp.pt
