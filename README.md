@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto tem como objetivo desenvolver uma aplicação Android que utiliza uma API dedicada a uma biblioteca para oferecer diversas funcionalidades essenciais aos usuários. A API é composta pelos seguintes controladores:
+Este projeto tem como objetivo desenvolver uma aplicação Android que utiliza uma API chamada "Library book API", dedicada a uma biblioteca, para oferecer diversas funcionalidades essenciais aos usuários . A API é composta pelos seguintes controladores:
 
 - **Assets Controller:** Gerencia ativos digitais, como imagens e recursos.
 - **Book Controller:** Permite a interação com informações sobre livros, como títulos, autores e gêneros.
