@@ -7,17 +7,28 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#FFFFFF">
-
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Gerenciar Ativos"
+            android:text="Pesquisar"
     />
 
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Interagir com Livros"
+            android:text="Checkout"
+    />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reviews"
+    />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Funcionamento da Biblioteca"
     />
 
     <!-- Adicione botões para as outras funcionalidades aqui -->
