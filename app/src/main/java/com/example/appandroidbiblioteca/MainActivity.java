@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         Button btnEntrar = findViewById(R.id.buttonEnviar);
 
         btnEntrar.setOnClickListener(new View.OnClickListener() {
@@ -20,8 +22,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 exibirMensagem();
                 abrirMenuActivity();
+
             }
         });
+
+
     }
 
     private void exibirMensagem() {
@@ -31,5 +36,11 @@ public class MainActivity extends AppCompatActivity {
     private void abrirMenuActivity() {
         Intent intent = new Intent(this, Menu.class);
         startActivity(intent);
+    }
+    public void onBackButtonClick(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        finish(); // Encerra a atividade atual para evitar a acumulação na pilha
     }
 }

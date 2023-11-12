@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#FFFFFF">
+>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pesquisar"
+            android:text="Library"
+    />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Search"
+    />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book List"
     />
 
     <Button
@@ -28,9 +40,18 @@
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Funcionamento da Biblioteca"
+            android:text="Checkout"
     />
 
-    <!-- Adicione botões para as outras funcionalidades aqui -->
+    <ImageButton
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@android:drawable/ic_menu_revert"
+            android:id="@+id/btnBack"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Botão de Voltar"
+            android:onClick="onBackButtonClick"/>
 
 </LinearLayout>
