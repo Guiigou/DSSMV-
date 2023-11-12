@@ -1,4 +1,4 @@
-# Aplicação Android de Biblioteca
+# LIBRARY APP
 
 ## Descrição do Projeto
 
