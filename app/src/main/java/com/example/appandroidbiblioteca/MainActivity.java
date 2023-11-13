@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void exibirMensagem() {
-        Toast.makeText(this, "Entrada Bem-sucedida", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Bem-vindo ", Toast.LENGTH_SHORT).show();
     }
 
     private void abrirMenuActivity() {
