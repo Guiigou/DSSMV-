@@ -1,10 +1,11 @@
-package model;
+package dto;
+
 import java.util.List;
 
-public class Book {
-    private List<Author> authors;
+public class BookDTO {
+    private List<AuthorDTO> authors;
     private String byStatement;
-    private CoverUrls cover;
+    private CoverUrlsDTO cover;
     private String description;
     private String isbn;
     private int numberOfPages;
@@ -19,11 +20,11 @@ public class Book {
 
     // Getters e Setters
 
-    public List<Author> getAuthors() {
+    public List<AuthorDTO> getAuthors() {
         return authors;
     }
 
-    public void setAuthors(List<Author> authors) {
+    public void setAuthors(List<AuthorDTO> authors) {
         this.authors = authors;
     }
 
@@ -35,11 +36,11 @@ public class Book {
         this.byStatement = byStatement;
     }
 
-    public CoverUrls getCover() {
+    public CoverUrlsDTO getCover() {
         return cover;
     }
 
-    public void setCover(CoverUrls cover) {
+    public void setCover(CoverUrlsDTO cover) {
         this.cover = cover;
     }
 
@@ -114,6 +115,5 @@ public class Book {
         this.title = title;
     }
 
-
+    // Outros métodos, se necessário
 }
-
