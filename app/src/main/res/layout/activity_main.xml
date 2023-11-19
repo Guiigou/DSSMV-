@@ -33,6 +33,7 @@
                 android:text="Join"
                 android:textSize="15dp"
                 android:textColor="@android:color/black"
+                android:background="@android:color/transparent"
                 android:onClick="onEnterButtonClick"/>
 
 

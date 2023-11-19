@@ -10,18 +10,23 @@
         android:background="#FFFFFF">
 
     <Button
+            android:id="@+id/btnLibrary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Library"
     />
 
     <Button
+
+            android:id="@+id/btnBookSearch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Book Search"
     />
 
     <Button
+
+            android:id="@+id/btnBookList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Book List"
@@ -30,18 +35,24 @@
 
 
     <Button
+
+            android:id="@+id/btnCheckout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Checkout"
     />
 
     <Button
+
+            android:id="@+id/btnReviews"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Reviews"
     />
 
     <Button
+
+            android:id="@+id/btnUserProfile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="User Profile"

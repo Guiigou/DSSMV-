@@ -20,6 +20,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".Menu"/>
+        <activity android:name=".Library"/>
+        <activity android:name=".BookList"/>
+        <activity android:name=".BookSearch"/>
+        <activity android:name=".Checkout"/>
+        <activity android:name=".Reviews"/>
+        <activity android:name=".UserProfile"/>
+
 
 
     </application>
