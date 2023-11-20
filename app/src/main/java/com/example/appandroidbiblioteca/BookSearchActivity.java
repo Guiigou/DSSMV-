@@ -4,14 +4,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Library extends AppCompatActivity {
+
+public class BookSearchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_library);
+        setContentView(R.layout.activity_book_search);
 
         ImageButton btnBack = findViewById(R.id.btnBack);
 
@@ -19,7 +21,7 @@ public class Library extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Voltar para a atividade do menu
-                Intent intent = new Intent(Library.this, Menu.class);
+                Intent intent = new Intent(BookSearchActivity.this, MenuActivity.class);
                 startActivity(intent);
                 finish();
             }

@@ -50,14 +50,6 @@
             android:text="Reviews"
     />
 
-    <Button
-
-            android:id="@+id/btnUserProfile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="User Profile"
-    />
-
 
     <ImageButton
             android:layout_width="377dp"

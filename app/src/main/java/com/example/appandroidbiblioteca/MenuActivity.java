@@ -8,7 +8,7 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class Menu extends AppCompatActivity {
+public class MenuActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,6 @@ public class Menu extends AppCompatActivity {
         Button btnBookList = findViewById(R.id.btnBookList);
         Button btnCheckout = findViewById(R.id.btnCheckout);
         Button btnReviews = findViewById(R.id.btnReviews);
-        Button btnUserProfile = findViewById(R.id.btnUserProfile);
         ImageButton btnBack = findViewById(R.id.btnBack);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +31,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Iniciar a activity da biblioteca
-                Intent intent = new Intent(Menu.this, Library.class);
+                Intent intent = new Intent(MenuActivity.this, LibraryActivity.class);
                 startActivity(intent);
             }
         });
@@ -41,7 +40,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Iniciar a activity de busca de livros
-                Intent intent = new Intent(Menu.this, BookSearch.class);
+                Intent intent = new Intent(MenuActivity.this, BookSearchActivity.class);
                 startActivity(intent);
             }
         });
@@ -50,7 +49,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Iniciar a activity da lista de livros
-                Intent intent = new Intent(Menu.this, BookList.class);
+                Intent intent = new Intent(MenuActivity.this, BookListActivity.class);
                 startActivity(intent);
             }
         });
@@ -59,7 +58,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Iniciar a activity de checkout
-                Intent intent = new Intent(Menu.this, Checkout.class);
+                Intent intent = new Intent(MenuActivity.this, CheckoutActivity.class);
                 startActivity(intent);
             }
         });
@@ -68,7 +67,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Iniciar a activity de avaliações
-                Intent intent = new Intent(Menu.this, Reviews.class);
+                Intent intent = new Intent(MenuActivity.this, ReviewsActivity.class);
                 startActivity(intent);
             }
         });
@@ -76,8 +75,13 @@ public class Menu extends AppCompatActivity {
 
     }
 
+    public void onBackButtonClick(View view) {
+        onBackPressed();
+    }
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();
     }
+
 }

@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void abrirMenuActivity() {
-        Intent intent = new Intent(this, Menu.class);
+        Intent intent = new Intent(this, MenuActivity.class);
         startActivity(intent);
     }
     public void onBackButtonClick(View view) {

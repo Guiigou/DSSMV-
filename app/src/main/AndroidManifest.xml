@@ -19,13 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu"/>
-        <activity android:name=".Library"/>
-        <activity android:name=".BookList"/>
-        <activity android:name=".BookSearch"/>
-        <activity android:name=".Checkout"/>
-        <activity android:name=".Reviews"/>
-        <activity android:name=".UserProfile"/>
+        <activity android:name=".MenuActivity"/>
+        <activity android:name=".LibraryActivity"/>
+        <activity android:name=".BookListActivity"/>
+        <activity android:name=".BookSearchActivity"/>
+        <activity android:name=".CheckoutActivity"/>
+        <activity android:name=".ReviewsActivity"/>
 
 
 

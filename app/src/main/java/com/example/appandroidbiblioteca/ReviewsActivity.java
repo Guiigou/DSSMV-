@@ -7,13 +7,12 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
-public class BookSearch extends AppCompatActivity {
+public class ReviewsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_book_search);
+        setContentView(R.layout.activity_reviews);
 
         ImageButton btnBack = findViewById(R.id.btnBack);
 
@@ -21,7 +20,7 @@ public class BookSearch extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Voltar para a atividade do menu
-                Intent intent = new Intent(BookSearch.this, Menu.class);
+                Intent intent = new Intent(ReviewsActivity.this, MenuActivity.class);
                 startActivity(intent);
                 finish();
             }

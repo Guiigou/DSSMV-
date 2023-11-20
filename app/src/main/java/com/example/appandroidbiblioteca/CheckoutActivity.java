@@ -7,12 +7,12 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class BookList extends AppCompatActivity {
+public class CheckoutActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_book_list);
+        setContentView(R.layout.activity_checkout);
 
         ImageButton btnBack = findViewById(R.id.btnBack);
 
@@ -20,7 +20,7 @@ public class BookList extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Voltar para a atividade do menu
-                Intent intent = new Intent(BookList.this, Menu.class);
+                Intent intent = new Intent(CheckoutActivity.this, MenuActivity.class);
                 startActivity(intent);
                 finish();
             }
